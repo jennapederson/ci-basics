@@ -9,12 +9,12 @@ public class CartItem {
 	private BigDecimal unitPrice;
 
 	public CartItem(String sku, int quantity, BigDecimal unitPrice) {
-		if (quantity <= 0) {
-			throw new IllegalArgumentException();
-		}
-		if (unitPrice.signum() < 0) {
-			throw new IllegalArgumentException();
-		}
+//		if (quantity <= 0) {
+//			throw new IllegalArgumentException();
+//		}
+//		if (unitPrice.signum() < 0) {
+//			throw new IllegalArgumentException();
+//		}
 		this.sku = sku;
 		this.quantity = quantity;
 		this.unitPrice = unitPrice;
