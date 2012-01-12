@@ -1,0 +1,5 @@
+=Continuous Integration Basics
+
+==Background
+
+Basic Maven project set up for demonstration purposes during the CodeFreeze 2012 conference on 1/12/2012.
