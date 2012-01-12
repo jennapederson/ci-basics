@@ -21,13 +21,13 @@ public class CartTest {
 		assertEquals(0, cart.getNumberOfItems());
 	}
 	
-//	@Test
-//	public void testAddItemIncrementsNumberOfItems() {
-//		Cart cart = new Cart();
-//		assertEquals(0, cart.getNumberOfItems());
-//		cart.addItem("123", 1, BigDecimal.TEN);
-//		assertEquals(1, cart.getNumberOfItems());
-//	}
+	@Test
+	public void testAddItemIncrementsNumberOfItems() {
+		Cart cart = new Cart();
+		assertEquals(0, cart.getNumberOfItems());
+		cart.addItem("123", 1, BigDecimal.TEN);
+		assertEquals(1, cart.getNumberOfItems());
+	}
 //	
 //	@Test
 //	public void testAddItemIncrementsTotal() {
